@@ -1,0 +1,29 @@
+.promo {
+	background-color: #445162;
+	padding: 50px 0;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__body {
+		color: #fff;
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+		padding: 0px 5px 0px 0px;
+	}
+	&__title{
+		font-size: 60px;
+		margin: 0px 0px 35px 0px;
+	}
+	&__list {
+		font-size: 20px;
+		line-height: 36px;
+
+		li {
+			background: url('../img/icons/check.png') 0 7px no-repeat;
+			padding: 0px 0px 0px 36px;
+		}
+	}
+	&__img {
+		flex: 0 0 469px;
+	}
+}
